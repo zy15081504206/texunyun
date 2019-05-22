@@ -1,0 +1,357 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    font-size: 0.16rem;
+}
+
+ul {
+    list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.clearfix::after,
+.clearfix::before {
+    content: "";
+    display: block;
+    clear: both;
+}
+/*头部部分*/
+header{
+	height: 0.55rem;
+	width: 3.8rem;
+	line-height: 0.55rem;
+	background-color: #000;
+}
+header .logo{
+	float: left;
+	color: #fff;
+	font-size: 0.17rem;
+	margin: 0 0.2rem;
+	height: 100%;
+}
+header .logo i{
+	font-size: 0.35rem;
+	vertical-align: middle;
+}
+header .kehu{
+	height: 100%;
+	margin: 0 0.2rem;
+	float: right;
+	color: #fff;
+}
+header span .iconfont{
+	font-size: 0.25rem;
+}
+/*广告部分*/
+.banner{
+	width: 3.8rem;
+	height: 1.6rem;
+	background-image: url(../images/banner-bg.jpg);
+	background-size: cover;
+	background-color: #fff;
+}
+.banner .banner_inner{
+	height: 100%;
+	padding: 0 0.2rem;
+	position: relative;
+
+}
+.banner .banner_inner .b_nei{
+	 position: absolute;
+    top: 28.75%;
+}
+.banner .banner_inner h1{
+	color: #fff;
+	text-align: left;
+    font-size: 0.22rem;
+    margin-bottom: 0.05rem;
+    font-weight: 400;
+}
+.banner .banner_inner p{
+	font-size: 0.12rem;
+	color: #fff;
+}
+.banner .banner_inner .banner_btn a{
+    background-color: #00a4ff;
+    color: #fff;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    padding-top: 0.02rem;
+    position: absolute;
+    right: -1.2rem;
+    top: 5%;
+    font-size: 0.16rem;
+    text-align: center;
+    box-sizing: border-box;
+}
+/*广告下面*/
+.bannerx{
+	height: 0.55rem;
+	line-height: 0.55rem;
+	background-color: #272d3a;
+} 
+.bannerx li{
+	margin: 0 0.08rem;
+	color: #fff;
+	float: left;
+	font-size: 0.14rem;
+}
+/*内容*/
+.content>div{
+	border-bottom: #e5e5e5 1px solid;
+    padding-top: 0.25rem;
+    padding-bottom: 0.35rem;
+}
+.content>div .inner{
+	
+	padding: 0 0.2rem;
+	margin: 0 auto;
+}
+.jianjie .top h4{
+	text-align: center;
+	font-size: 0.18rem;
+	color: #333;
+	font-weight: 400;
+}
+.jianjie .top p{
+	font-size: 0.14rem;
+	text-align: justify;
+	color: #666;
+	margin-top: 0.05rem;
+	padding-top: 0.05rem;
+	line-height: 1.7;
+}
+.jianjie .bottom {
+	margin-top: 0.2rem;
+	margin-bottom: 0.2rem;
+	box-shadow: 2px 2px 2px #666;
+}
+.jianjie .bottom .right_t {
+    position: relative;
+}
+
+.jianjie .bottom .right_t img {
+    width: 100%;
+    height: 100%;
+}
+
+.jianjie .bottom .right_t .right_zi {
+    position: absolute;
+    top: 0.3rem;
+    left: 0;
+    padding: 0.1rem 0 0.3rem 0.3rem;
+}
+
+.jianjie .bottom .right_t .right_zi div {
+    font-size: 0.14rem;
+    padding: 0.03rem 0.03rem;
+    background-color: #fff;
+    border-radius: 2px;
+    color: #333;
+    margin-top: 0.02rem;
+    display: inline-block;
+}
+
+.jianjie .bottom .right_t .right_zi h3 {
+    color: #fff;
+    font-size: 0.18rem;
+    line-height: 1.6;
+    margin-top: 0.15rem;
+    font-weight: 400;
+}
+
+.jianjie .bottom .right_b {
+    height: 0.5rem;
+    line-height: 0.5rem;
+    padding-left: 0.3rem;
+    line-height: 0.5rem;
+    border: 1px solid #e5e5e5;
+    border-top: 0;
+}
+
+.jianjie .bottom .right_b div {
+    margin-right: 0.2rem;
+    font-size: 0.14rem;
+    color: #999;
+    cursor: pointer;
+}
+/*腾讯云特性*/
+.tengxun .inner>h3 {
+	padding-top: 0.2rem;
+	margin-bottom: 0.3rem;
+    text-align: center;
+    font-weight: 400;
+    font-size: 0.2rem;
+}
+
+.tengxun .tx_bottom div {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.1rem;
+}
+
+.tengxun .tx_bottom .tu {
+    width: 100%;
+    text-align: center;
+}
+.tengxun .tx_bottom .tu img{
+    width: 0.6rem;
+    height: 0.6rem;
+}
+.tengxun .tx_bottom .xia {
+    width: 100%;
+}
+
+.tengxun .tx_bottom .xia h4 {
+    font-weight: 400;
+    text-align: center;
+    font-size: 0.18rem;
+    color: #333;
+}
+
+.tengxun .tx_bottom .xia p {
+    font-size: 0.14rem;
+    color: #666;
+    margin-top: 0.1rem;
+    line-height: 1.7;
+    text-align: justify;
+}
+/*应用场景*/
+.ying{
+	padding-top: 0.3rem;
+}
+.ying h3{
+	font-size: 0.2rem;
+	font-weight: 400;
+	text-align: center;
+	padding-bottom: 0.2rem;
+	border-bottom: 1px solid #e5e5e5;
+}
+.ying .title .top {
+	height: 0.32rem;
+	line-height: 0.42rem;
+	padding: 0.1rem 0.17rem 0.1rem 0.2rem;
+	border-bottom: 1px solid #e5e5e5;
+	position: relative;
+}
+.ying .title .top .zi{
+	font-size: 0.16rem;
+}
+.ying .title .bottom{
+	padding: 0.08rem 0;
+    background-color: #F7F8FA;
+    border-bottom: 1px solid #e5e5e5;
+}
+.ying .title .bottom p{
+	font-size: 0.14rem;
+	color: #333;
+	padding: 0.07rem 0.2rem;
+}
+.ying .title .bottom p img{
+	margin-top: 0.4rem;
+	width: 3.4rem;
+	height: 0.82rem;
+
+}
+/*开始使用腾讯云*/
+.kaishi{
+	padding: 0.2rem 0;
+}
+.kaishi .inner{
+	padding: 0 0.15rem;
+}
+.kaishi h3{
+	text-align: center;
+	color: #333;
+	font-size: 0.2rem;
+	margin-top: 0.12rem;
+	margin-bottom: 0.15rem;
+	font-weight: 400;
+}
+.kaishi p{
+	font-size: 0.14rem;
+	color: #333;
+	text-align: center;
+}
+.kaishi p a{
+      color: #00a4ff;
+}
+.kaishi .kaishi_btn{
+	margin-top: 0.3rem;
+}
+.kaishi .kaishi_btn a{
+	width: 100%;
+	height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    background-color: #00a4ff;
+    color: #fff;
+    margin: 0 0 10px;
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+}
+/*尾部开始*/
+footer {
+	margin-top: 0.2rem;
+	background-color: #000;
+	color: #fff;
+	background-color: #2e3033;
+}
+footer .top .title .shang{
+	height: 0.42rem;
+	line-height: 0.42rem;
+	padding: 0.1rem 0.17rem 0.1rem 0.2rem;
+	border-bottom: 1px solid #393c40;
+} 
+footer .bottom {
+	text-align: center;
+	margin-top: 0.2rem;
+}
+footer .x{
+	width: 1rem;
+	height: 0.28rem;
+}
+footer .c{
+	width: 1.6rem;
+	height: 1.6rem;
+}
+footer .bottom p{
+	text-align: center;
+	font-size: 0.12rem;
+}
+footer .top ul{
+	border-bottom: 1px solid #393c40;	
+}
+footer .top ul li{
+	padding: 0 0.15rem;
+    height:0.4rem;
+    font-size: 0.12rem;
+    line-height: 0.4rem;
+    color: #ccc;
+}
+footer .bottom .zixun{
+	height: 0.4rem;
+	line-height: 0.4rem;
+	font-size: 0.12rem;
+	padding: 0 0.08rem;
+	width: 95%;
+	margin: 0 auto;
+	background-color: #00a4ff;
+    color: #fff;
+    display: inline-block;
+    box-sizing: border-box;
+    margin:0.1rem  0;
+}
+footer span{
+	display: block;
+	text-align: center;
+	font-size: 12px;
+    line-height: 24px;
+}

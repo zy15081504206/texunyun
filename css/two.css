@@ -1,0 +1,616 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    width: 100%;
+    font-size: 14px;
+}
+
+ul {
+    list-style: none;
+}
+
+.clearfix::after,
+.clearfix::before {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+
+
+
+/************导航********/
+
+nav {
+    height: 65px;
+    width: 100%;
+    color: #fff;
+    background-color: #2a303c;
+    line-height: 65px;
+    position: relative;
+}
+
+nav .navinner {
+    height: 65px;
+    width: 100%;
+    color: #fff;
+    background-color: #2a303c;
+    line-height: 65px;
+}
+
+nav .navinner .nav_list {
+    float: left;
+    width: 102px;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: 20px;
+    text-align: center;
+    cursor: pointer;
+    border-right: 1px solid #000;
+}
+
+nav .navinner .nav_list:hover {
+    color: #00bbff;
+}
+
+nav .navinner .nav_list i {
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+nav .navinner .nav_list span {
+    font-size: 16px;
+    vertical-align: middle;
+    color: #fff;
+}
+
+
+
+
+
+/******logo*****/
+
+nav .navinner .nav_logo {
+    margin-top: -2px;
+    float: left;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+nav .navinner .nav_logo i {
+    font-size: 28px;
+    color: #0066ff;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+nav .navinner .nav_logo span {
+    margin-left: -5px;
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+
+
+
+/**************导航**********/
+
+nav .navinner .nav_dao .list {
+    list-style: none;
+}
+
+nav .navinner .nav_dao .list li {
+    float: left;
+}
+
+nav .navinner .nav_dao a {
+    display: inline-block;
+    padding: 0 15px;
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+nav .navinner .nav_dao a:hover {
+    color: #00bbff;
+}
+
+
+
+
+/*******操作区域********/
+
+nav .navinner .nav_right {
+    background-color: #2a303c;
+    font-size: 0;
+    position: absolute;
+    right: 25px;
+    height: 65px;
+}
+
+
+
+
+
+/******搜索按钮********/
+
+nav .navinner .nav_right .search {
+    float: left;
+}
+
+nav .navinner .nav_right .search i {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+
+
+
+/*****控制台*******/
+
+nav .navinner .nav_right .ctrl {
+    float: left;
+}
+
+nav .navinner .nav_right .ctrl a {
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: 12px;
+    color: #fff;
+    padding: 0 12px;
+}
+
+nav .navinner .nav_right .ctrl a:hover {
+    color: #00bbff;
+}
+
+nav .navinner .nav_right .ctrl .btn:hover {
+    color: #00bbff;
+}
+
+nav .navinner .nav_right .ctrl .btn {
+    height: 27px;
+    line-height: 26px;
+    border: 1px solid rgba(255, 255, 255, .2);
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+
+
+
+/*******广告部分*********/
+
+.banner {
+    min-width: 1200;
+    height: 320px;
+    padding: 0 20px;
+    background-image: url(../images/banner-bg.jpg);
+    background-size: cover;
+    /*把背景图像扩展至足够大，以使背景图像完全覆盖背景区域。*/
+    position: relative;
+}
+
+.banner .banner_bg img {
+    height: 280px;
+    position: absolute;
+    top: 40px;
+    right: 200px;
+}
+
+.banner .bannernei {
+    padding: 105px 0 0 10px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.banner .bannernei h1 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.banner .bannernei p {
+    font-size: 14px;
+    margin: 10px 0 15px;
+    color: #fff;
+}
+
+.banner .bannernei .banner_btn a {
+    margin-right: 20px;
+    width: 170px;
+    height: 35px;
+    line-height: 35px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 0 20px;
+    background-color: #00a4ff;
+    display: inline-block;
+    cursor: pointer;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+
+
+/*广告下面*/
+
+.kang {
+    width: 100%;
+    height: 55px;
+}
+
+.kang .kang_inner {
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.kang .kang_inner ul {
+    line-height: 55px;
+}
+
+.kang .kang_inner ul li {
+    margin: 0 1.35%;
+    margin-right: 10px;
+    float: left;
+    cursor: pointer;
+}
+
+.kang .kang_inner ul li:hover {
+    color: #00bbff;
+}
+
+
+
+/********内容***********/
+
+.content>div {
+    padding: 45px 0 50px;
+    background-color: #f7f8fa;
+}
+
+.content>div:nth-of-type(2n) {
+    background-color: #fff;
+}
+
+.content .inner {
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+
+.jianjie .left {
+    display: inline-block;
+    width: 65%;
+    vertical-align: top;
+    padding-right: 8%;
+    box-sizing: border-box;
+    padding: 20px;
+    ;
+}
+
+.jianjie .left .left_img {
+    display: table-cell;
+    vertical-align: top;
+    padding: 0 15px 0 0;
+}
+
+.jianjie .left .left_zi {
+    display: table-cell;
+}
+
+.jianjie .left .left_zi h4 {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.jianjie .left .left_zi div {
+    text-align: justify;
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+    line-height: 1.7;
+}
+
+.jianjie .right {
+    display: inline-block;
+    width: 27.94%;
+    vertical-align: top;
+    margin-top: 60px;
+    margin-left: 50px;
+    box-shadow: 2px 2px 2px #666;
+}
+
+.jianjie .right .right_t {
+    position: relative;
+}
+
+.jianjie .right .right_t img {
+    width: 100%;
+}
+
+.jianjie .right .right_t .right_zi {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0 30px 30px;
+}
+
+.jianjie .right .right_t .right_zi div {
+    font-size: 14px;
+    padding: 3px 5px;
+    background-color: #fff;
+    border-radius: 2px;
+    color: #333;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.jianjie .right .right_t .right_zi h3 {
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 15px;
+    font-weight: 400;
+}
+
+.jianjie .right .right_b {
+    height: 50px;
+    line-height: 50px;
+    padding-left: 30px;
+    line-height: 50px;
+    border: 1px solid #e5e5e5;
+    border-top: 0;
+}
+
+.jianjie .right .right_b div {
+    margin-right: 20px;
+    font-size: 14px;
+    color: #666;
+    cursor: pointer;
+}
+
+
+/*腾讯云特性*/
+
+.tengxun .inner>h3 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.tengxun .tx_bottom div {
+    float: left;
+    width: 33.33333%;
+    box-sizing: border-box;
+    padding: 20px;
+    display: block;
+}
+
+.tengxun .tx_bottom .tu {
+    width: 100%;
+    text-align: center;
+}
+
+.tengxun .tx_bottom .xia {
+    width: 100%;
+}
+
+.tengxun .tx_bottom .xia h4 {
+    font-weight: 400;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+}
+
+.tengxun .tx_bottom .xia p {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+.yingyong h3 {
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.yingyong .xuan ul {
+    text-align: center;
+    border-bottom: #e5e5e5 2px solid;
+    position: relative;
+}
+
+.yingyong .xuan ul li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px 30px;
+    font-size: 18px;
+}
+
+.active {
+    color: #00a4ff;
+    border-bottom: #00a4ff 2px solid;
+}
+
+.yingyong .xuan .ying_nei {
+    width: 830px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.yingyong .xuan .ying_nei img {
+    margin: 40px 0;
+}
+
+
+/*开始使用*/
+
+.shiyong h3 {
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+.shiyong .bottom p{
+    text-align: center;
+    line-height: 1.8;
+}
+.shiyong .bottom p a{
+    color: #00a4ff;
+    text-decoration: none;
+}
+.shiyong .bottom .shi-btn{
+    margin-top: 35px;
+}
+.shiyong .bottom .shi-btn a{
+    display: block;
+    width: 220px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 16px;
+    background-color: #00a4ff;
+    color: #fff;
+    margin: 0 auto;
+    text-decoration: none;
+}
+/*尾部*/
+footer .footer_top {
+    background: #2e3033;
+}
+
+.footer_top .footer_topn {
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 1180px;
+    padding: 30px 0;
+    border-bottom: 1px solid #45484c;
+}
+
+.footer_top .footer_topn li {
+    float: left;
+    width: 20%;
+    line-height: 1.8;
+    text-align: left;
+}
+
+.footer_top .footer_topn li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer_top .footer_topn li a i {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    font-size: 32px;
+    vertical-align: middle;
+    margin-right: 10px
+}
+
+.footer_top .footer_topn li a span {
+    margin-top: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.footer_center {
+    background: #2e3033;
+}
+
+.footer_center .footer_centern {
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 1180px;
+    padding: 30px 0;
+    border-bottom: 1px solid #45484c;
+    position: relative;
+}
+
+.footer_center .footer_centern>ul {
+    color: #fff;
+}
+
+.footer_center .footer_centern>ul>li {
+    width: 200px;
+    float: left;
+    padding-right: 20px;
+}
+
+.footer_center .footer_centern>ul>li h3 {
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.footer_center .footer_centern>ul>li h3:hover {
+    color: #00bbff;
+}
+
+.footer_center .footer_centern>ul>li li {
+    line-height: 25.6px;
+    height: 25.6px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.footer_center .footer_centern>ul>li li:hover {
+    color: #00bbff;
+}
+
+.footer_center .footer_centern .right {
+    width: 190px;
+    position: absolute;
+    right: 0;
+    top: 50px;
+    color: #fff;
+    font-size: 12px;
+}
+
+.footer_center .footer_centern .right div {
+    width: 100%;
+    padding: 0 8px;
+    font-size: 12px;
+    height: 35px;
+    line-height: 35px;
+    background-color: #00a4ff;
+    color: #fff;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.footer_bottom {
+    background: #2e3033;
+}
+
+.footerb_inner {
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 1180px;
+    padding: 30px 0;
+}
+
+.footerb_inner nav {
+    background: #2e3033;
+}
+
+.footerb_inner nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+}

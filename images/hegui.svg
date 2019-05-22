@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="49px" viewBox="0 0 46 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 48 46 48 46 0 0 0"></polygon>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-2" transform="translate(-1001.000000, -4831.000000)">
+            <g id="Page-1" transform="translate(1001.000000, 4831.000000)">
+                <path d="M5.0004,0.0003 L5.0004,4.0003 L0.0004,4.0003 L0.0004,48.0003 L42.0004,48.0003 L42.0004,46.0003 L39.9994,46.0003 L36.0004,46.0003 L1.9994,46.0003 L1.9994,5.9993 L5.0004,5.9993 L5.0004,42.9993 L46.0004,42.9993 L46.0004,0.0003 L5.0004,0.0003 Z M7.0004,41.0003 L44.0004,41.0003 L44.0004,2.0003 L7.0004,2.0003 L7.0004,41.0003 Z" id="Fill-1" fill="#7C848E"></path>
+                <g id="Group-9">
+                    <path d="M33,25 C35.206,25 37,23.206 37,21 C37,18.794 35.206,17 33,17 C30.794,17 29,18.794 29,21 C29,23.206 30.794,25 33,25 Z M35,27 L31,27 L31,30.907 L32.179,30.376 L33,30.007 L33.821,30.376 L35,30.907 L35,27 Z M33,15 C36.313,15 39,17.687 39,21 C39,22.775 38.225,24.365 37,25.463 L37,34 L33,32.2 L29,34 L29,25.463 C27.775,24.365 27,22.775 27,21 C27,17.687 29.687,15 33,15 Z" id="Fill-2" fill="#7C848E"></path>
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-5"></g>
+                    <polygon id="Fill-4" fill="#7C848E" mask="url(#mask-2)" points="12 10 39 10 39 8 12 8"></polygon>
+                    <polygon id="Fill-6" fill="#7C848E" mask="url(#mask-2)" points="12 18 23 18 23 16 12 16"></polygon>
+                    <polygon id="Fill-7" fill="#7C848E" mask="url(#mask-2)" points="12 26 23 26 23 24 12 24"></polygon>
+                    <polygon id="Fill-8" fill="#7C848E" mask="url(#mask-2)" points="12 34 23 34 23 32 12 32"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
